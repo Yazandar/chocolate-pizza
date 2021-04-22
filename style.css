@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Satisfy&display=swap');
+
+
+body {
+    width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 200px 1fr 150;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 45px 1fr 1fr;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-top: 0px;
+      
+}
+
+.title p {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 15px 1fr;
+}
+
+.sMedia img {
+    float: right;
+}
+
+.desc {
+    display: grid;
+    grid-template-columns: 1fr 60px;
+    align-items: center;
+   
+} 
+
+
+.desc img {
+float: right;
+
+}
+article{
+color: gray;
+
+}
+legend {
+    background-image: url(img/list-bg.png) ; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+li{
+  list-style-type: none;
+}
+
+footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 30px;
+}
+.info {
+    display: grid;
+    grid-template-columns: 75px 1fr 250px;
+}
+
+.line ul li:nth-child(2) {
+    text-decoration: line-through;
+}
+.line ul li:nth-child(3) {
+    text-decoration: line-through;
+}
+
+
+
+button {
+    height: 50px;
+    background-color: rgb(214, 68, 68);
+}
+
+.rights {
+    text-align: center;
+}
